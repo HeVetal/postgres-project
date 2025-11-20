@@ -1,1 +1,1 @@
--- Выбор только столбцов name и course из таблицы students
+SELECT id, name, age, course FROM students
