@@ -1,1 +1,1 @@
--- Запрос к таблице products
+SELECT product_name || ' - ' || category AS "Описание", price FROM products
