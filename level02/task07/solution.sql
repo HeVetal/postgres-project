@@ -1,1 +1,3 @@
--- Выбор имен студентов, возраст которых больше 18 лет
+SELECT name
+FROM sudents
+WHERE age > 18
