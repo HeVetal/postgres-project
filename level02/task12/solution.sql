@@ -1,2 +1,3 @@
--- Запрос для вывода всех товаров из таблицы products,
--- отсортированных по цене в порядке убывания.
+SELECT *
+FROM products
+ORDER BY price DESC
