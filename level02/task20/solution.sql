@@ -8,7 +8,7 @@ SELECT
 FROM
     students
 WHERE
-    age < 12                    -- фильтрация по возрасту > 12
-    OR city <> 'New York'       -- фильтрация по городу New York
+    age > 12                    -- фильтрация по возрасту > 12
+    AND city = 'New York'       -- фильтрация по городу New York
 ORDER BY
-    student_age DESC;           -- сортировка по возрастанию возраста
+    student_age ASC;           -- сортировка по возрастанию возраста
