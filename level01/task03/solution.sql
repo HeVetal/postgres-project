@@ -1,2 +1,2 @@
 -- Запрос для получения версии PostgreSQL
-SELECT ...;
+SELECT version();
