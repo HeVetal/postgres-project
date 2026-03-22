@@ -1,0 +1,5 @@
+-- Выбираем строки из таблицы orders, где original_price не равен discounted_price
+-- Используем функцию NULLIF(), чтобы исключить строки, где значения равны
+SELECT *
+FROM orders
+WHERE NULLIF(original_price, discounted_price) IS NOT NULL
